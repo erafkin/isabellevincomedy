@@ -1,5 +1,8 @@
 import React from 'react';
 import mail from '../assets/mail.svg';
+import facebook from '../assets/facebook.svg';
+import linkedin from '../assets/linkedin.svg';
+
 import './styles/landing-styles.scss';
 import '../styles.scss';
 
@@ -13,10 +16,16 @@ const Landing = (props) => {
         <div className="title-content">
           <div className="title">Isabel Levin is a comic from Chicago living in Boston</div>
           <div className="button-container">
-            <a href="https://www.facebook.com/isabel.levin.92" target="_blank" className="social-button" rel="noreferrer">f</a>
+            <a href="https://www.facebook.com/isabel.levin.92" target="_blank" className="social-button" rel="noreferrer">
+              <img src={facebook} alt="facebook logo" className="mail-logo" />
+            </a>
             {/* if you need to change out the email change it out here!!! */}
-            <a href="mailto:ilevin@college.harvard.edu" className="social-button" target="_blank" rel="noreferrer"><img src={mail} alt="email logo" className="mail-logo" /></a>
-            <a href="https://www.linkedin.com/in/isabel-levin-4888391ab/" className="social-button" target="_blank" rel="noreferrer">li</a>
+            <a href="mailto:ilevin@college.harvard.edu" className="social-button" target="_blank" rel="noreferrer">
+              <img src={mail} alt="email logo" className="mail-logo" />
+            </a>
+            <a href="https://www.linkedin.com/in/isabel-levin-4888391ab/" className="social-button" target="_blank" rel="noreferrer">
+              <img src={linkedin} alt="linkedin logo" className="mail-logo" />
+            </a>
           </div>
         </div>
         <div className="landing-picture"><img className="isabel-pic" src={isabel} alt="isabel" /></div>
