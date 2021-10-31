@@ -1,9 +1,10 @@
 
 .landing{
-    background-color: black;
+    background-color: transparent;
     color: white;
-    margin: 5vw;
-    margin-top: 10vh;
+    margin: 10vw;
+    
+    margin-bottom: 0;
 }
 .mail-logo{
     width: 20px;
@@ -27,29 +28,51 @@
 
 }
 
+
 .button-container{
     display: flex;
+    background-color: transparent;
+
 }
 
 .social-button:visited{
     color: black;
     text-decoration: none;
 }
-.content-container{
-    display: flex;
 
-}
 
 .title-content{
     width: 50%;
+    background-color: transparent;
 }
 
 .title{
     font-size: 40pt;
     margin-bottom: 5vh;
     margin-top: 15vh;
+    width: 50vw;
+    background-color: transparent;
+
+
 }
 .landing-picture{
-    width: 50%;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    margin-top: 10vh;
+    min-width: 70%;
     text-align: right;
+    margin-left: -20vw;
+    .isabel-pic{
+        width: 1000px;
+
+    }
+}
+
+.content-container{
+    display: flex;
+    margin-bottom: 40vh;
+    background-color: transparent;
+
+
 }

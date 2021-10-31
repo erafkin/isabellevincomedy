@@ -2,14 +2,18 @@
 import React from 'react';
 import './styles/info-styles.scss';
 
+const image = require('../assets/about-image.png');
+
 const Info = (props) => {
   return (
     <div className="info-container">
       <div className="info">
-        <div className="info-picture">picutre of isabel</div>
+        <div className="info-picture"><img className="rabbit-pic" src={image} alt="isabel holding rabbit" /></div>
         <div className="info-content">
           <div className="about">About Isabel</div>
           <hr className="black-line" />
+          {/* if you want to change out general info, here it is!
+          changing out the links just would be chaning out the urls under href and it shows up as what is written between the tags */}
           <div className="about-content">
             She began doing standup at 16, attending open mics and following her favorite Chicago comics around the city.
             Isabel has since moved to Boston to be a student at Harvard, where she is majoring in Social Studies (she knows it sounds like a made up major)

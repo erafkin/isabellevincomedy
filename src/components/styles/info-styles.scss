@@ -6,12 +6,14 @@
 .info-container{
     color: black;
     background-color: white;
-    padding: 5vw;
+    padding-left: 10vw;
+    padding-right: -10vw;
     padding-top: 30vh;
     padding-bottom: 30vh;
 }
 .info{
     display: flex;
+    flex-wrap: wrap;
 }
 .comedy-link{
     color:black;
@@ -20,10 +22,12 @@
 .comedy-link:visited{
     color:black;
 }
-.info-picture{
-    width: 30vw;
-}
+.rabbit-pic{
+    width: 325px;
+    margin-bottom: 5vh;
+ }
 .info-content{
+    margin-left: 5vw;
     width: 50vw;
 }
 

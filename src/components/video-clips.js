@@ -3,10 +3,12 @@ import ReactPlayer from 'react-player';
 import videos from '../video-list';
 import './styles/video-styles.scss';
 import '../styles.scss';
-
+/**
+ * IF YOU WANT TO CHANGE OUT THE VIDEO LINKS SEE VIDEO-LIST.JS
+ */
 const Videos = (props) => {
   return (
-    <div>
+    <div className="videos-container">
       <div className="standup-title">Standup</div>
       <hr className="white-line" />
       <div className="video-container">
@@ -15,7 +17,7 @@ const Videos = (props) => {
             <div className="video" key={video.link}>
               <div className="video-title">{video.title}</div>
               <div className="video-date">{video.date}</div>
-              <ReactPlayer url={video.link} light controls style={{ width: '40vw' }} />
+              <ReactPlayer url={video.link} light controls style={{ maxWidth: '40vw' }} />
             </div>
           );
         })}
