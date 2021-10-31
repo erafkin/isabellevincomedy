@@ -1,0 +1,38 @@
+.black-line{
+    border-top:1px solid black;
+    background-color: black;
+}
+
+.info-container{
+    color: black;
+    background-color: white;
+    padding: 5vw;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+}
+.info{
+    display: flex;
+}
+.comedy-link{
+    color:black;
+    text-decoration: underline;
+}
+.comedy-link:visited{
+    color:black;
+}
+.info-picture{
+    width: 30vw;
+}
+.info-content{
+    width: 50vw;
+}
+
+.about{
+    font-size: 30pt;
+    margin-bottom: 5vh;
+}
+.about-content{
+    margin-top: 5vh;
+    line-height: 2;
+    font-weight: 100;
+}
